@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -22,7 +23,16 @@
             padding: 10px;
             background-color: lightgrey;
         }
-        /*pseudoclasse pula uma linha nth-child(2n)*/
+        thead, tfoot{
+            background-color: rgba(30, 19, 19, 0.733);
+        }
+        /*pseudoclasse pula uma linha nth-child(2n)
+        tbody >tr:nth-child(odd){ celluas par
+            background-color: lightskyblue;
+        }
+        tbody >tr:nth-child(even){// celulas impar
+            background-color: lightgrey;
+        }*/
         tbody >tr:nth-child(2n){
             background-color: lightskyblue;
         }
@@ -36,6 +46,11 @@
         thead {
             background-color: grey;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgba(30, 19, 19, 0.733);
         }
 
         td.num {
@@ -80,6 +95,88 @@
                 <td>Rio Grande do Sul</td>
                 <td class="num">9.002.123</td>
             </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">1.600.010</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">12.302.123</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">5.016.600</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">23.000.012</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.002.123</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.000.123</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">12.302.123</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">5.016.600</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">23.000.012</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.002.123</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.000.123</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">12.302.123</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">5.016.600</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">23.000.012</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.002.123</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.000.123</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">12.302.123</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">5.016.600</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">23.000.012</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9.002.123</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -88,6 +185,17 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo optio totam dolor numquam deserunt saepe quod in quisquam fugit molestiae, sunt esse, a et veniam omnis earum ut distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi a doloribus est voluptatem quo consectetur veniam odio quae optio reprehenderit officiis, dicta nemo unde exercitationem nostrum! Dolore, dolorem laudantium!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo optio totam dolor numquam deserunt saepe quod in quisquam fugit molestiae, sunt esse, a et veniam omnis earum ut distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi a doloribus est voluptatem quo consectetur veniam odio quae optio reprehenderit officiis, dicta nemo unde exercitationem nostrum! Dolore, dolorem laudantium!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo optio totam dolor numquam deserunt saepe quod in quisquam fugit molestiae, sunt esse, a et veniam omnis earum ut distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi a doloribus est voluptatem quo consectetur veniam odio quae optio reprehenderit officiis, dicta nemo unde exercitationem nostrum! Dolore, dolorem laudantium!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo optio totam dolor numquam deserunt saepe quod in quisquam fugit molestiae, sunt esse, a et veniam omnis earum ut distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi a doloribus est voluptatem quo consectetur veniam odio quae optio reprehenderit officiis, dicta nemo unde exercitationem nostrum! Dolore, dolorem laudantium!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo optio totam dolor numquam deserunt saepe quod in quisquam fugit molestiae, sunt esse, a et veniam omnis earum ut distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi a doloribus est voluptatem quo consectetur veniam odio quae optio reprehenderit officiis, dicta nemo unde exercitationem nostrum! Dolore, dolorem laudantium!</p>
+
+
 
 </body>
 
